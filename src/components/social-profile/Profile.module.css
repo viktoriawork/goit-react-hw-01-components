@@ -1,0 +1,86 @@
+.profile {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 440px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.avatar {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tag {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: dimgray;
+}
+
+.location {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: dimgray;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(202, 198, 198);
+  background-color: rgb(243, 237, 237);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+}
+
+.item:not(:last-child) {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(202, 198, 198);
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: dimgray;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: 700;
+}

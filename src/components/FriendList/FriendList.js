@@ -33,12 +33,3 @@ export default FriendList;
 
 
 
-// const FriendList = ({ friends }) => (
-//   <ul className={styles.friendList}>
-//     <FriendListItem friends={friends} />,
-//   </ul>
-// );
-
-// FriendList.propTypes = {
-//     friends: PropTypes.array.isRequired
-// };
